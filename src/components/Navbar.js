@@ -16,6 +16,7 @@ function Navbar() {
           Home
         </Link>
       </li>
+
      {/* Contact link */}
       <li className="nav-item">
         <Link
@@ -24,14 +25,15 @@ function Navbar() {
         >
           Contact
         </Link>
-
-        {/* Porfolio link */}
+      </li>
+        
+        {/* Portfolio link */}
         <li className="nav-item">
         <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
           Portfolio
         </Link>
       </li>
-      
+
       {/* </li> */}
       {/* <li className="nav-item">
         <Link
@@ -41,7 +43,6 @@ function Navbar() {
           Learn
         </Link> */}
 
-      </li>
     </ul>
   );
 }
