@@ -1,14 +1,44 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import {AppBar, Toolbar, IconButton, Typography, Button} from "@material-ui/core";
+import MenuIcon from "@material-ui/icons/Menu";
+import { makeStyles } from '@material-ui/core/styles';
+import { useHistory } from "react-router-dom";
+
+const useStyles = makeStyles(()=>({
+  root: {
+    flexGrow: 1,
+  },
+  menuButton: {
+    marginRight:"20 px",
+  },
+  title: {
+    flexGrow: 1,
+  },
+}));
+
+
 
 function Navbar() {
-  // We'll go into the Hooks API later, for now, we are just using some code
-  // from the react-router docs (https://reacttraining.com/react-router/web/api/Hooks/uselocation)
-  // This allows the component to check the route any time the user uses a link to navigate.
+
   const location = useLocation();
+
+  const classes = useStyles();
 
   return (
     <ul className="nav nav-tabs">
+
+<AppBar position="static">
+  <Toolbar>
+    <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
+      <MenuIcon />
+    </IconButton>
+    <Typography variant="h6" className={classes.title}>
+      Kari Johnson
+    </Typography>
+    {/* <Button color="inherit">Login</Button> */}
+  </Toolbar>
+</AppBar>
 
         {/* Home link */}
       <li className="nav-item">
