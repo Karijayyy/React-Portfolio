@@ -13,5 +13,5 @@ To show case my React Skills.
   ## Screenshot
 
   ## Resources
-  https://material-ui.com/
+  https://material-ui.com/ <br>
   https://w3collective.com/react-contact-form/
