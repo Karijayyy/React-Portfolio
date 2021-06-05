@@ -22,7 +22,6 @@ const useStyles = makeStyles(()=>({
 function Navbar() {
 
   const location = useLocation();
-
   const classes = useStyles();
 
   return (
@@ -36,6 +35,7 @@ function Navbar() {
     <Typography variant="h6" className={classes.title}>
       Kari Johnson
     </Typography>
+
     {/* <Button color="inherit">Login</Button> */}
   </Toolbar>
 </AppBar>
