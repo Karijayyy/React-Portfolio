@@ -4,9 +4,8 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Navbar from "./components/Navbar";
-// Contact Form
-// import './App.css';
-// import ContactForm from './ContactForm';
+import Footer from "./components/Footer";
+
 
 //NavTabs component
 // import NavTabs from "./components/NavTabs";
@@ -24,15 +23,6 @@ function App() {
   );
 }
 
-// Need to figure out the syntax to get this working on this page to use the contact form 
-
-// const App = () => {
-//   return (
-//     <div className="App">                 
-//         <ContactForm />           
-//     </div>
-//   );
-// }
 
 
 export default App;

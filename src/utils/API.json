@@ -1,0 +1,45 @@
+[
+    {
+        "title": "The Baffoonery",
+        "description": "A blog style web app to save, add, and delete your favorite Dad Jokes to your user profile.",
+        "technology": "HTML, CSS, JavaScript, Mongoose, Express, Bcrypt, React-Router",
+        "deployedUrl": "https://github.com/austenhughes/The-Baffoonery",
+        "gitHubUrl": "https://github.com/austenhughes/The-Baffoonery"
+    },
+    {
+        "title": "Foodmersion",
+        "description": "",
+        "technology": "HTML, CSS, JavaScript, Handlebars, Node.js, MYSQL",
+        "deployedUrl": "https://github.com/jacksoncurdo/FoodMersion-",
+        "gitHubUrl": "https://github.com/jacksoncurdo/FoodMersion-"
+    },
+    {
+        "title": "STACK$",
+        "description": "A Crypto Application to view popular Crypto currency rates in real time.",
+        "technology": "HTML, CSS, JavaScript, API",
+        "deployedUrl": "https://karijayyy.github.io/crypto-project/",
+        "gitHubUrl": "https://github.com/Karijayyy/crypto-project"
+    },
+    {
+        "title": "Employee-Tracker",
+        "description": "Plan your workday on an hourly basis with this application.",
+        "technology": "HTML, CSS, JavaScript, MYSQL, and Node Packages",
+        "deployedUrl": "https://karijayyy.github.io/Employee-Tracker/",
+        "gitHubUrl": "https://github.com/Karijayyy/Employee-Tracker"
+    },
+    {
+        "title": "Note Taker",
+        "description": "A simple note application that tracks user thoughts.",
+        "technology": "HTML, CSS, Javascript, Node.js, Express",
+        "deployedUrl": "https://git.heroku.com/still-wave-00412.git",
+        "gitHubUrl": "https://github.com/Karijayyy/note-taker"
+    },
+    {
+        "title": "Fitness Tracker",
+        "description": "An app to track a users workout history.",
+        "technology": "JavaScript, jQuery, Node.js, Express, Mongoose",
+        "deployedUrl": "https://intense-atoll-28218.herokuapp.com/",
+        "gitHubUrl": "https://github.com/Karijayyy/17-Fitness-Tracker"
+    }
+
+]
