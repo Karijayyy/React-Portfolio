@@ -1,9 +1,12 @@
 import React from "react";
-// import Navbar from "../../src/components/Navbar";
+import ContactForm from '../components/ContactForm';
 
 function Contact () {
 return (
+    <div>
     <div>Contact</div>
+    <ContactForm />
+    </div>
 ) 
 };
 

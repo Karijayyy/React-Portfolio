@@ -6,10 +6,6 @@ import Portfolio from "./pages/Portfolio";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-
-//NavTabs component
-// import NavTabs from "./components/NavTabs";
-
 function App() {
   return (
     <Router>
@@ -18,8 +14,10 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/contact" component={Contact} />
         <Route path="/portfolio" component={Portfolio} />
+        <Footer />
       </div>
     </Router>
+  
   );
 }
 
